@@ -1,0 +1,45 @@
+#main-header{
+   background-image: url('images/background.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 90vh;
+}  
+
+.main a{
+	text-decoration-line:none;
+	font-weight:bold;
+	font-size: 30px;
+	font-style: normal;
+	margin:15px 15px 15px 15px;
+    color:gray;
+}
+
+.top-img{
+	margin:30px auto;
+}
+
+.btn-wrapper{
+	text-align:center;
+	display: block;
+}
+
+.register{
+	padding: 13px 13px;
+	border-radius: 15px;
+	border:2px solid white; 
+	background-color:#ffffff00;
+	color: white;
+    font-size: 15px;
+    margin-right: 12px;
+
+}
+.start{
+	padding: 13px 13px;
+	border-radius: 15px;
+	border:2px solid white; 
+	background-color:#ffffff00;
+	color: white;
+	font-size: 15px;
+	margin-left: 12px;
+	
+}
