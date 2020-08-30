@@ -1,3 +1,4 @@
+
 .left a{
 	text-decoration-line:none;
 	font-family: 'Kanit', sans-serif;
@@ -11,6 +12,21 @@
 	color:gray;
 }
 
+.center-elements{
+	padding-top: 60px;
+	height: 00px;
+	text-align: center;
+}
+
+#top-img{
+	
+	width: 300px;
+
+}
+#middle-img{
+	padding-top: 28px;
+}
+
 
 .navbar{
 	float: right;
@@ -20,26 +36,32 @@
 .topper{
 	height: 600px;
 	width: 100%;
-	background:rgba(0, 0, 0, 0.4);;
+	background:rgba(0, 0, 0, 0.4);
 }
 
 .main-header{
 	background-image: url('images/background.png');
-	height: 600px;
+	max-height: 600px;
 	width: 100%;
 	background-size:cover;
 }
-
-#top-img{
-   width: 190px;
-   padding-left: 640px;
-   padding-top:65px;
+ 
+.navbar {
+  overflow: hidden;
+  background-color:rgba(0,0,0,0) ;
 
 }
-#middle-img{
-	padding-left:420px;
-	width:45%;
-	padding-top:65px;
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.navbar a:hover{
+  background-color:gray;
 }
 .btn-wrapper{
 	text-align:center;
@@ -47,27 +69,70 @@
 }
 
 .register{
-    padding: 10px 18px;
-	border-radius: 15px;
-	border:2px solid white; 
+    padding: 14px 18px;
+	border-radius: 22px;
+	border:3px solid white; 
 	background-color:#ffffff00;
 	color: white;
-    font-size: 17px;
+    font-size: 20px;
     margin-right:16px;;
-    font-family: 'Kanit', sans-serif;
     cursor: pointer;
+}
+.register span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.register span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.register:hover span {
+  padding-right: 25px;
+}
+.register:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .start{
-    padding: 10px 18px;
-	border-radius: 15px;
-	border:2px solid white; 
+    padding: 14px 20px;
+	border-radius: 22px;
+	border:3px solid white; 
 	background-color:#ffffff00;
 	color: white;
-	font-family: 'Kanit', sans-serif;
-	font-size: 17px;
+	font-size: 20px;
 	margin-left: 16px;
 	cursor: pointer;
+}
+
+.start span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.start span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.start:hover span {
+  padding-right: 25px;
+}
+.start:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .rounds{
@@ -206,13 +271,14 @@ h5{
 	background-size: cover;
 	width: 100%;
     padding-top: 30px;
+    border-bottom: 30px solid #602f6b;
 }
 
 .footer-icons{
 	text-align: center;
 	color:black;
 	padding:70px 0px;
-	border-bottom: 30px solid #602f6b;
+	
 	font-size: 30px;
 	
 }
