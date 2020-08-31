@@ -1,9 +1,10 @@
 
 .left a{
 	text-decoration-line:none;
-	font-family: 'Kanit', sans-serif;
+	font-family: 'Krona One', sans-serif;
+	font-weight: bold;
 	font-size: 30px;
-	padding:15px 15px;
+	padding:11px 15px;
     color:white;
     position: fixed;
 }
