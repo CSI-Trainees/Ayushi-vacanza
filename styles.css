@@ -19,9 +19,13 @@
 }
 
 #top-img{
-	
+	transition: all 0.3s ease-in-out 0s;
 	width: 300px;
-
+}
+#top-img:hover{
+	cursor: pointer;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
 }
 #middle-img{
 	padding-top: 28px;
